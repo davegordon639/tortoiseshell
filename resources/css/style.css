@@ -1,5 +1,6 @@
 html {
   font-size: 18px;
+  font-family: Helvetica;
   margin: 0px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
   background-size: cover;
@@ -62,3 +63,82 @@ nav ul li {
   top: 10rem;
   right: 5rem;
 }
+
+  .icons {
+    position: absolute;
+    top: 80%;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    margin: 0 auto;
+  }
+
+  .icon {
+    margin: 30px;
+    display: flex;
+    height: auto;
+    display: inline-block;
+  }
+
+  .icon img {
+    width: 4rem;
+    height: auto;
+  }
+
+  .icon p {
+    text-align: center;
+    font-family: Helvetica;
+  }
+
+  .location {
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    position: absolute;
+    top: 120%;
+    margin-left: 23%;
+  }
+
+  .location p:first-child {
+    background-color: cadetblue;
+    width: 200px;
+    color: white;
+    padding: .5rem;
+  }
+
+  .location p {
+    width: 13rem;
+  }
+
+  footer {
+    display: flex;
+    position: absolute;
+    top: 180%;
+    left: 4rem;
+  }
+
+  footer img {
+    width: 3rem;
+    height: 1.5rem;
+    margin-top: .75rem;
+  }
+
+  footer p {
+    margin-left: 1rem;
+  }
+
+  @media (max-width: 780px) {
+    .main-bar {
+      width: 100%;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+    }
+
+    .title p {
+      font-size: 1.33rem;
+      padding: .75rem 4rem;
+    }
+
+  }
